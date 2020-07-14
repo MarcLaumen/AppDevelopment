@@ -15,11 +15,14 @@ class Element
   }
 }
   
-  
 main()
-{
+{ 
+  Element holz=Element("Holz",2);
+    holz.zeigeWerteAn();
   Element stein=Element("Stein",5);
     stein.zeigeWerteAn();
+  Element silber=Element("Silber",150);
+    silber.zeigeWerteAn();
   Element gold=Element("Gold",200);
     gold.zeigeWerteAn();
 }
