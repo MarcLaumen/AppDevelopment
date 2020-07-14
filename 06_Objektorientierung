@@ -1,0 +1,25 @@
+class Element
+{
+  String name;
+  int preis;
+  
+  Element(String name,int preis)
+  {
+    this.name=name;
+    this.preis=preis;
+  }
+  void zeigeWerteAn()
+  {
+    print(this.name);
+    print(this.preis);     
+  }
+}
+  
+  
+main()
+{
+  Element stein=Element("Stein",5);
+    stein.zeigeWerteAn();
+  Element gold=Element("Gold",200);
+    gold.zeigeWerteAn();
+}
